@@ -20,7 +20,7 @@ With over 10 years of hands-on experience as a web frontend engineer, I speciali
 
 From selecting video player libraries to building custom joystick UIs from scratch, I am committed to making the best technology choices to deliver outstanding user experiences.
 
-Currently, as Web Team Lead for the AI-powered English learning service "abceed," I have driven team growth from a two-engineer startup phase, taking on a broad range of responsibilities including hiring, technology selection, and project management.
+Currently, as Web Team Lead for the AI-powered English learning service "abceed," I have driven team growth from its early founding phase, taking on a broad range of responsibilities including hiring, technology selection, and project management.
 
 To maintain high technical standards even with limited resources, I leverage AI-powered development tools such as Claude Code and CodeRabbit to maximize both team and individual productivity.
 
@@ -54,10 +54,10 @@ To maintain high technical standards even with limited resources, I leverage AI-
 #### Web Frontend Development for "abceed" — AI-Powered English Learning Service
 
 **Period:** Mar 2021 – Present
-**Role:** Frontend Lead / Team Lead
+**Role:** Frontend Lead
 
 **Overview:**
-Leading web frontend development for the AI-powered English learning service "abceed." When I joined, the web frontend team consisted of just 2 engineers including myself (now 4). I have been responsible for developing the core abceed application and its admin dashboard. As Team Lead, I also handle hiring (creating coding assessments and conducting technical interviews), task and resource management, and project coordination.
+Leading web frontend development for the AI-powered English learning service "abceed." Responsible for designing and implementing user-facing features and the admin dashboard. Proactively coordinated specifications with the design team, driving UI improvements from both usability and implementation perspectives.
 
 **Challenges & Initiatives:**
 
@@ -68,16 +68,37 @@ Leading web frontend development for the AI-powered English learning service "ab
   - For details, see [Evolution of Video Libraries Used in abceed Web's Movie/Drama Feature Development](https://qiita.com/umi_kappa/items/f91eb2ed1ea3e0594992)
 - Technical debt had accumulated in the existing Vue 2 codebase
   - Driving an incremental migration to Vue 3 in parallel with new feature development
-- Actively reviewed designs from the design team from both usability and implementation perspectives, proactively adjusting specifications
-- Improved Git workflow rules and release processes
 
 **AI-Driven Development Efficiency (actively exploring and adopting):**
 
 - Streamlined coding and PR reviews with Cursor and CodeRabbit
 - Automated test generation with Claude Code; styling with Figma MCP
-- Parallel development with Git Worktree; built custom PR review agents and release issue creation skills to balance leadership duties with hands-on development
+- Parallel development with Git Worktree, enabling progress on other tasks while awaiting code reviews
 
 **Tech Stack:** TypeScript, Vue.js (Vuex / Pinia), Vite, webpack, Vitest, Storybook, GitHub Actions, AWS, Figma
+
+---
+
+#### Web Frontend Team Management & Organization Building
+
+**Period:** Mar 2021 – Present
+**Role:** Team Lead
+
+**Overview:**
+Served as Team Lead from the early founding phase of the web frontend team, driving team growth through hiring, task and resource management, and project coordination.
+
+**Challenges & Initiatives:**
+
+- As business requirements expanded, the development team needed to scale accordingly
+  - Designed and created coding assessments, and conducted technical interviews
+  - Contributed to successful team expansion
+- Collaborated with the PdM to prioritize tasks and adjust specifications, then assigned team members and drove projects forward
+  - When team members encountered blockers, broke down tasks and clarified specifications, and personally coordinated with the PdM and other teams to unblock progress
+- Needed to balance leadership responsibilities with hands-on development in a lean team
+  - Built custom PR review agents and release issue creation skills using Claude Code, automating routine leadership tasks
+  - Maintained team management quality while preserving dedicated development time
+- Git workflow rules and release processes had room for improvement
+  - Revised branching strategy and streamlined release processes, improving deployment efficiency across the team
 
 ---
 
@@ -198,4 +219,4 @@ Authored an introductory book covering electronics fundamentals through IoT inte
 
 ---
 
-*Last updated: 2026年2月28日*
+*Last updated: 2026年3月1日*
