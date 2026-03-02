@@ -14,15 +14,29 @@
 
 ---
 
-## About Me
+## Summary & Strengths
 
-With over 10 years of hands-on experience as a web frontend engineer, I specialize in designing and building UIs that users can operate intuitively without any explanation.
+I have 10+ years of professional experience as a web frontend engineer, specializing in designing and building UIs that users can operate intuitively without instructions.
+From selecting video player libraries to building custom joystick UIs from scratch, I am committed to making the best technical choices to deliver outstanding user experiences.
+Currently, as the Web Team Lead for "abceed," an AI-powered English learning service, I have driven the team's growth from its founding phase, taking on responsibilities spanning hiring, technology selection, and project management.
+To maintain high engineering standards despite limited resources, I focus on maximizing both team and individual productivity by leveraging AI tools such as Claude Code and CodeRabbit.
 
-From selecting video player libraries to building custom joystick UIs from scratch, I am committed to making the best technology choices to deliver outstanding user experiences.
+---
 
-Currently, as Web Team Lead for the AI-powered English learning service "abceed," I have driven team growth from its early founding phase, taking on a broad range of responsibilities including hiring, technology selection, and project management.
+## What I Want to Do Next
 
-To maintain high technical standards even with limited resources, I leverage AI-powered development tools such as Claude Code and CodeRabbit to maximize both team and individual productivity.
+- **Elevate product value through frontend technology:** Leveraging my experience of building products with uncompromising technical choices for UX, I want to create products that are not only intuitive but genuinely enjoyable to use
+- **Evolve development processes with AI:** Having explored ways to balance development and management through AI tools, I want to continue integrating AI to maximize the time spent focusing on users
+- **Build high-performing teams as a player-manager:** I want to lead teams while staying hands-on, building small teams that deliver outsized results
+
+---
+
+## What I Look for in a Workplace
+
+- **Autonomy in technical decisions:** An environment where I have ownership over library selection and architectural decisions
+- **AI-forward organization:** A culture that actively embraces AI for development efficiency and process improvement
+- **Product ownership:** A role where I can be involved from the upstream specification phase and take responsibility for user experience
+- **Work-life balance:** A flexible work environment with remote work and flextime options, allowing me to deliver results while valuing time with my children
 
 ---
 
@@ -219,4 +233,4 @@ Authored an introductory book covering electronics fundamentals through IoT inte
 
 ---
 
-*Last updated: 2026年3月1日*
+*Last updated: 2026年3月2日*
