@@ -233,4 +233,4 @@ Authored an introductory book covering electronics fundamentals through IoT inte
 
 ---
 
-*Last updated: 2026年3月2日*
+*Last updated: March 2, 2026*
