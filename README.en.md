@@ -8,6 +8,7 @@
 |---|---|
 | Name | Masayuki Kurashita |
 | GitHub | [@umi-kappa](https://github.com/umi-kappa) |
+| LinkedIn | [umi-kappa](https://www.linkedin.com/in/umi-kappa/) |
 | X (Twitter) | [@umi_kappa](https://x.com/umi_kappa) |
 | Zenn | [umi_kappa](https://zenn.dev/umi_kappa) |
 | Qiita | [umi_kappa](https://qiita.com/umi_kappa) |
@@ -16,9 +17,10 @@
 
 ## Summary & Strengths
 
-I have 10+ years of professional experience as a web frontend engineer, specializing in designing and building UIs that users can operate intuitively without instructions.
-From selecting video player libraries to building custom joystick UIs from scratch, I am committed to making the best technical choices to deliver outstanding user experiences.
-Currently, as the Web Team Lead for "abceed," an AI-powered English learning service, I have driven the team's growth from its founding phase, taking on responsibilities spanning hiring, technology selection, and project management.
+I have 15 years of professional experience across interactive content and frontend development, including 13+ years as a web frontend engineer, specializing in designing and building UIs that users can operate intuitively without instructions.\
+I began my career by developing interactive content with Flash and ActionScript 3.0 for approximately three years, and have continued to build frontend products with user experience as the starting point.\
+From selecting video player libraries to building custom joystick UIs from scratch, I am committed to making the best technical choices to deliver outstanding user experiences.\
+Currently, as the Web Team Lead for "abceed," an AI-powered English learning service, I have driven the team's growth from its founding phase, taking on responsibilities spanning hiring, technology selection, and project management.\
 To maintain high engineering standards despite limited resources, I focus on maximizing both team and individual productivity by leveraging AI tools such as Claude Code and CodeRabbit.
 
 ---
@@ -36,7 +38,7 @@ To maintain high engineering standards despite limited resources, I focus on max
 - **Autonomy in technical decisions:** An environment where I have ownership over library selection and architectural decisions
 - **AI-forward organization:** A culture that actively embraces AI for development efficiency and process improvement
 - **Product ownership:** A role where I can be involved from the upstream specification phase and take responsibility for user experience
-- **Work-life balance:** A flexible work environment with remote work and flextime options, allowing me to deliver results while valuing time with my children
+- **Work-life balance:** A flexible work environment with remote work as the primary arrangement, alongside flextime and other options that allow me to deliver results while valuing time with my children
 
 ---
 
@@ -44,18 +46,35 @@ To maintain high engineering standards despite limited resources, I focus on max
 
 ### Languages
 
-| Technology | Proficiency | Notes |
-|---|---|---|
-| TypeScript | ⭐⭐⭐ Primary | 5+ years of professional experience |
-| JavaScript | ⭐⭐⭐ Primary | 5+ years of professional experience |
-| HTML / CSS | ⭐⭐⭐ Primary | 5+ years of professional experience |
+| Technology | Experience / Usage |
+|---|---|
+| TypeScript | Primary technology (8+ years of professional experience) |
+| JavaScript | Primary technology (13+ years of professional experience) |
+| HTML / CSS | Primary technology (13+ years of professional experience) |
 
 ### Frameworks & Libraries
 
-| Technology | Proficiency | Notes |
-|---|---|---|
-| Vue.js | ⭐⭐⭐ Primary | 5+ years of professional experience |
-| React | ⭐⭐⭐ Professional experience | 3+ years of professional experience |
+| Technology | Experience / Usage |
+|---|---|
+| Vue.js | Primary technology (5+ years of professional experience) |
+| React | Used professionally (3+ years of professional experience) |
+
+### State Management
+
+| Technology | Experience / Usage |
+|---|---|
+| Vuex | State management in Vue.js projects |
+| Pinia | State management after the Vue 3 migration |
+| Redux | State management in React projects |
+
+### Testing & Quality
+
+| Technology | Experience / Usage |
+|---|---|
+| Vitest | Unit and component testing |
+| Jest | Unit testing in React projects |
+| Storybook | Component development and interaction testing |
+| GitHub Actions | Quality checks in CI |
 
 ---
 
@@ -89,7 +108,7 @@ Leading web frontend development for the AI-powered English learning service "ab
 - Automated test generation with Claude Code; styling with Figma MCP
 - Parallel development with Git Worktree, enabling progress on other tasks while awaiting code reviews
 
-**Tech Stack:** TypeScript, Vue.js (Vuex / Pinia), Vite, webpack, Vitest, Storybook, GitHub Actions, AWS, Figma
+**Tech Stack:** TypeScript, Vue.js (Vuex / Pinia), Vite, webpack, Vitest, Storybook, GitHub Actions, Figma
 
 ---
 
@@ -212,6 +231,59 @@ Authored an introductory book covering electronics fundamentals through IoT inte
 
 ---
 
+### CASE Inc. / Bunnyhop Inc. (Sep 2012 – Aug 2014)
+
+**Position:** Frontend Engineer
+
+**Overview:**
+Handled frontend development in JavaScript for B2B projects — including business applications and a surveillance camera system — alongside campaign website production. Transferred from CASE Inc. to Bunnyhop Inc. (now BH Inc.) in May 2014 following a corporate spin-off, continuing the same work with the same team.
+
+**Tech Stack:** JavaScript, HTML, CSS
+
+---
+
+### SONICJAM Inc. (Oct 2010 – Aug 2012)
+
+**Position:** Flash Developer
+
+**Overview:**
+Produced interactive content with Flash and ActionScript 3.0, primarily for corporate campaign websites. Joined as an intern in October 2010 and became a full-time employee in April 2011.
+
+**Tech Stack:** ActionScript 3.0, Flash
+
+---
+
+## Technical Learning & Personal Projects
+
+### Personal Development (Apr 2026 – Present)
+
+**Position:** Frontend Engineer
+
+#### [PeakRM](https://github.com/umi-kappa/peak-rm) — Training Log & 1RM Visualization Web App
+
+**Period:** Apr 2026 – Present
+**Role:** Planning, Design & Implementation
+
+**Overview:**
+Personally developing a web app for managing BIG3 (bench press, squat, and deadlift) training logs and visualizing estimated 1RM progress. Responsible end to end for product planning, requirements definition, UX design, UI design, architecture, implementation, and testing.
+
+**Challenges & Initiatives:**
+
+- Needed to maintain consistent design principles and quality standards while using AI in the development process
+  - Used Claude Code for requirements exploration, design reviews, implementation, and code reviews
+  - Maintained a [specification](https://github.com/umi-kappa/peak-rm/blob/main/docs/spec.md), [coding conventions](https://github.com/umi-kappa/peak-rm/blob/main/docs/conventions.md), and [design documentation](https://github.com/umi-kappa/peak-rm/tree/main/docs/design) to manage design decisions and implementation practices
+- Needed to provide a UI that could be operated without distraction during training
+  - Used concepts created with Claude Design as a starting point, then refined the implementation for usability, legibility, and consistency
+- Needed to support continued use without relying on login or network connectivity
+  - Built a local-first PWA using IndexedDB (Dexie), enabling login-free, offline use
+- Needed to ensure quality continuously throughout development
+  - Used Storybook for component development and interaction tests, and Vitest for logic tests
+  - Established continuous quality checks with GitHub Actions, Chromatic, and pre-commit hooks
+
+**Tech Stack:** TypeScript, Vue.js, Vite, IndexedDB (Dexie), PWA, Vitest, Storybook, Chromatic, GitHub Actions
+
+---
+
 ## Other Activities
 
 ### Writing
@@ -233,4 +305,4 @@ Authored an introductory book covering electronics fundamentals through IoT inte
 
 ---
 
-*Last updated: March 2, 2026*
+*Last updated: August 3, 2026*
