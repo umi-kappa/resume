@@ -1,6 +1,6 @@
 # Resume
 
-[日本語版](./README.md) *(日本語版からClaude Codeで自動翻訳)*
+[日本語版](./README.md)
 
 ## Basic Information
 
@@ -17,64 +17,72 @@
 
 ## Summary & Strengths
 
-I have 15 years of professional experience across interactive content and frontend development, including 13+ years as a web frontend engineer, specializing in designing and building UIs that users can operate intuitively without instructions.\
-I began my career by developing interactive content with Flash and ActionScript 3.0 for approximately three years, and have continued to build frontend products with user experience as the starting point.\
-From selecting video player libraries to building custom joystick UIs from scratch, I am committed to making the best technical choices to deliver outstanding user experiences.\
-Currently, as the Web Team Lead for "abceed," an AI-powered English learning service, I have driven the team's growth from its founding phase, taking on responsibilities spanning hiring, technology selection, and project management.\
-To maintain high engineering standards despite limited resources, I focus on maximizing both team and individual productivity by leveraging AI tools such as Claude Code and CodeRabbit.
+I have 15 years of development experience, primarily in web frontend development, with strengths in taking work from requirements and UX discussions through UI design and implementation. I pursue usability with the goal of creating products that people can use without instructions.
+
+From selecting video player libraries to developing a custom joystick UI from scratch, I have chosen technologies based on both user experience and feasibility, and turned those choices into working products.
+
+Currently, as the Web Team Lead for "abceed," an AI-powered English learning service, I remain hands-on in development while also handling hiring, technology selection, requirements coordination, and project delivery.
+
+Alongside using AI for development and reviews, I automate routine tasks and build reusable workflows for the team to improve productivity across the development process.
 
 ---
 
-## What I Want to Do Next
+## Career Goals & Priorities
 
-- **Elevate product value through frontend technology:** Leveraging my experience of building products with uncompromising technical choices for UX, I want to create products that are not only intuitive but genuinely enjoyable to use
-- **Evolve development processes with AI:** Having explored ways to balance development and management through AI tools, I want to continue integrating AI to maximize the time spent focusing on users
-- **Build high-performing teams as a player-manager:** I want to lead teams while staying hands-on, building small teams that deliver outsized results
+- **Elevate product value through frontend technology:**
+  I want to contribute from the requirements and UX planning stages through UI implementation, using my technical knowledge to create products that people can use without instructions
 
----
+- **Evolve development processes with AI:**
+  I want to incorporate AI throughout requirements discussions, design, implementation, and reviews, beyond coding assistance alone, so engineers have more time to focus on products and users
 
-## What I Look for in a Workplace
+- **Lead development through both technical decisions and project coordination:**
+  I want to move product development forward by staying hands-on with implementation and technical decisions while also clarifying requirements, coordinating specifications, breaking down tasks, and working with stakeholders
 
-- **Autonomy in technical decisions:** An environment where I have ownership over library selection and architectural decisions
-- **AI-forward organization:** A culture that actively embraces AI for development efficiency and process improvement
-- **Product ownership:** A role where I can be involved from the upstream specification phase and take responsibility for user experience
-- **Work-life balance:** A flexible work environment with remote work as the primary arrangement, alongside flextime and other options that allow me to deliver results while valuing time with my children
+- **Balance work and family:**
+  I value flexible working arrangements that allow me to stay committed to my work and deliver results consistently while also spending time with my children
 
 ---
 
 ## Tech Stack
 
+Experience as of September 2026
+
 ### Languages
 
-| Technology | Experience / Usage |
+| Technology | Professional Experience |
 |---|---|
-| TypeScript | Primary technology (8+ years of professional experience) |
-| JavaScript | Primary technology (13+ years of professional experience) |
-| HTML / CSS | Primary technology (13+ years of professional experience) |
+| TypeScript | Approx. 9 years of professional experience |
+| JavaScript | Approx. 14 years of professional experience |
+| HTML / CSS | Approx. 14 years of professional experience |
 
-### Frameworks & Libraries
+### Frameworks
 
-| Technology | Experience / Usage |
+| Technology | Professional Experience |
 |---|---|
-| Vue.js | Primary technology (5+ years of professional experience) |
-| React | Used professionally (3+ years of professional experience) |
+| Vue.js | Approx. 5 years of professional experience |
+| React | Approx. 3 years of professional experience |
 
 ### State Management
 
-| Technology | Experience / Usage |
-|---|---|
-| Vuex | State management in Vue.js projects |
-| Pinia | State management after the Vue 3 migration |
-| Redux | State management in React projects |
+- Vuex
+- Pinia
+- Redux
+
+### Build & Development Tools
+
+- Vite
+- webpack
 
 ### Testing & Quality
 
-| Technology | Experience / Usage |
-|---|---|
-| Vitest | Unit and component testing |
-| Jest | Unit testing in React projects |
-| Storybook | Component development and interaction testing |
-| GitHub Actions | Quality checks in CI |
+- Vitest
+- Storybook
+- Chromatic
+- GitHub Actions
+
+### AI-Assisted Development
+
+- Claude Code
 
 ---
 
@@ -90,48 +98,59 @@ To maintain high engineering standards despite limited resources, I focus on max
 **Role:** Frontend Lead
 
 **Overview:**
-Leading web frontend development for the AI-powered English learning service "abceed." Responsible for designing and implementing user-facing features and the admin dashboard. Proactively coordinated specifications with the design team, driving UI improvements from both usability and implementation perspectives.
+Lead web frontend development for the AI-powered English learning service "abceed." Responsibilities include designing and implementing user-facing features and admin interfaces, clarifying requirements and improving UI/UX in collaboration with product managers and designers, and selecting technologies.
 
 **Challenges & Initiatives:**
 
-- Needed to implement a DRM-compatible video player for a new movie/drama-based English learning feature
-  - Rapidly built a prototype with hls.js to validate UI/UX with film studios
-  - Migrated to Video.js for DRM (Widevine) support, but encountered playback freezing during high-speed phrase-level seeking
-  - Ultimately migrated to Shaka Player, achieving both DRM compliance and seamless phrase-level playback
-  - For details, see [Evolution of Video Libraries Used in abceed Web's Movie/Drama Feature Development](https://qiita.com/umi_kappa/items/f91eb2ed1ea3e0594992)
-- Technical debt had accumulated in the existing Vue 2 codebase
-  - Driving an incremental migration to Vue 3 in parallel with new feature development
+##### Requirements & UI Design for the Web
 
-**AI-Driven Development Efficiency (actively exploring and adopting):**
+- Identified web-specific use cases in specifications and designs developed primarily for iOS / Android apps, including state management on reload, navigation guards, and multi-window use, and worked with product managers to define the requirements
+- Collaborated with designers to adapt app-oriented designs for usability on the web, including desktop environments
+- Proactively reviewed designs and implemented behavior, including projects outside my direct responsibilities, and provided feedback on responsive layouts, layouts in exceptional states, and use cases not explicitly covered by specifications
 
-- Streamlined coding and PR reviews with Cursor and CodeRabbit
-- Automated test generation with Claude Code; styling with Figma MCP
-- Parallel development with Git Worktree, enabling progress on other tasks while awaiting code reviews
+##### Video Player Development for Movie- and Drama-Based English Learning
 
-**Tech Stack:** TypeScript, Vue.js (Vuex / Pinia), Vite, webpack, Vitest, Storybook, GitHub Actions, Figma
+- Needed a video player that supported both DRM and fast phrase-level seeking
+- Built a prototype with hls.js to validate UI/UX, then adopted Video.js for DRM support
+- Investigated playback freezes during fast seeking and ultimately migrated to Shaka Player, achieving both DRM support and seamless phrase playback
+- For details, see [Evolution of Video Libraries Used in abceed Web's Movie/Drama Feature Development](https://qiita.com/umi_kappa/items/f91eb2ed1ea3e0594992)
+
+**Tech Stack:** TypeScript, Vue.js, Vuex, Pinia, Vite, webpack, Vitest, Storybook, Chromatic, GitHub Actions, Shaka Player
 
 ---
 
-#### Web Frontend Team Management & Organization Building
+#### Web Frontend Team Leadership & Development Process Improvement
 
 **Period:** Mar 2021 – Present
 **Role:** Team Lead
 
 **Overview:**
-Served as Team Lead from the early founding phase of the web frontend team, driving team growth through hiring, task and resource management, and project coordination.
+Responsible for project delivery, hiring, and establishing development and review environments since the web frontend team's early stages. Lead development across the team while remaining hands-on.
 
 **Challenges & Initiatives:**
 
-- As business requirements expanded, the development team needed to scale accordingly
-  - Designed and created coding assessments, and conducted technical interviews
-  - Contributed to successful team expansion
-- Collaborated with the PdM to prioritize tasks and adjust specifications, then assigned team members and drove projects forward
-  - When team members encountered blockers, broke down tasks and clarified specifications, and personally coordinated with the PdM and other teams to unblock progress
-- Needed to balance leadership responsibilities with hands-on development in a lean team
-  - Built custom PR review agents and release issue creation skills using Claude Code, automating routine leadership tasks
-  - Maintained team management quality while preserving dedicated development time
-- Git workflow rules and release processes had room for improvement
-  - Revised branching strategy and streamlined release processes, improving deployment efficiency across the team
+##### Project Delivery & Delegation
+
+- In the team's early stages, handled a broad range of project activities: clarifying requirements and specifications, researching technologies, considering UI/UX, designing URL structures, creating issues, assigning tasks, reviewing PRs, and verifying implementations before QA
+- As development volume increased, gradually delegated project coordination to team members, including requirements clarification and reviews
+- Currently monitor project progress and team members' challenges, providing support and coordination on requirements and technical matters as needed
+
+##### Development Process Improvement with AI
+
+- Introduced Claude Code into day-to-day development and use it throughout the process, from preparing design and implementation plans based on requirements to implementation, testing, and code reviews
+- Automated recurring tasks, such as generating API-related files in batches and reviewing PRs, as reusable Claude Code Skills
+- Share Skills in the repository and continually refine them as a common team workflow, discussing and improving ideas together with team members
+
+##### Component Development & Review Process Improvement
+
+- Checking a specific component in a complex application required navigating through screens and recreating application state
+- Proposed introducing Storybook and established an environment for checking component UIs and behavior individually without operating the entire application
+- Based on a team member's proposal, worked with the team to establish a Chromatic workflow that detects unintended UI changes through Visual Regression Testing and supports PR reviews using an online Storybook
+
+##### Frontend Engineer Hiring
+
+- Responsible for improving and administering coding assessments and conducting technical interviews for senior frontend engineer hiring
+- Updated assessments in response to the wider adoption of AI implementation assistance to evaluate candidates' ability to clarify ambiguous requirements and turn them into specifications, alongside implementation skills
 
 ---
 
@@ -141,9 +160,9 @@ Served as Team Lead from the early founding phase of the web frontend team, driv
 **Role:** Implementation
 
 **Overview:**
-Built the [corporate website](https://www.globee.io/) from scratch with Nuxt.js in preparation for the company's IPO. Implemented responsive design for desktop and mobile based on designs from the design team. Balanced a trustworthy appearance befitting a publicly listed company with playful UI interactions. The IR page was hosted on a third-party provider's platform, where I maintained brand consistency within the constraints of their limited templates.
+Built the [corporate website](https://www.globee.io/) from scratch with Nuxt in preparation for the company's IPO. Implemented responsive design for desktop and mobile based on designs from the design team. Balanced a trustworthy appearance befitting a publicly listed company with playful UI interactions.
 
-**Tech Stack:** TypeScript, Nuxt.js
+**Tech Stack:** TypeScript, Nuxt
 
 ---
 
@@ -151,48 +170,66 @@ Built the [corporate website](https://www.globee.io/) from scratch with Nuxt.js 
 
 **Position:** Frontend Engineer
 
+**Overview:**
+Responsible for web frontend development for the company's IoT and automotive products. Developed web applications with React / TypeScript, primarily customizing the company's products and building specific features to meet client requirements. The following are representative projects that can be disclosed publicly.
+
 #### Remote Vehicle Control System — Web Application Development
 
 **Period:** Jan 2019 – Mar 2019
 **Role:** Frontend Development
 
 **Overview:**
-Developed a demo application for a major Japanese automaker that enabled remote control of an RC car via a smartphone web app. The key requirement was enabling sales representatives to operate it smoothly and responsively in front of clients.
+Developed a system for controlling a portable RC car through a web application as a technical demonstration of smartphone-based remote control for a client's heavy machinery. For demonstrations at client sites, the UI needed to be intuitive and smooth to operate without instructions.
 
 **Challenges & Initiatives:**
 
-- Initially adopted Hammer.js for the joystick UI, but faced issues with responsiveness and multi-touch support
-  - Built a custom joystick UI from scratch optimized for touch interaction, delivering an intuitive control experience
-- Collaborated closely with designers to refine UX details, such as fallback flows for error recovery
-  - Achieved a UX where the client could operate the app without any instructions at delivery
+- Initially adopted Hammer.js for the joystick UI, but encountered issues with responsiveness and multi-touch support
+  - Built a custom joystick UI from scratch optimized for touch interaction, delivering intuitive controls
+- Collaborated with a designer on UX details, including flows that made it easy to recover from failed operations
+  - Delivered a UI that the client could operate without instructions
 
-**Tech Stack:** TypeScript, React, Redux, Jest, Storybook
+**Tech Stack:** TypeScript, React, Redux, Storybook
 
 ---
 
-#### Vehicle Telematics Device Status Viewer — Web Application (Bluetooth)
+#### Technical Validation & Development of an Offline Web Application for an In-Vehicle Device
 
 **Period:** Sep 2018 – Dec 2018
 **Role:** Frontend Development (Design through Implementation)
 
 **Overview:**
-Developed a web application for checking the status of proprietary vehicle telematics devices via smartphone. Implemented offline capability using the Web Bluetooth API to enable operation without internet connectivity.
+Responsible for technical validation and development of a product that allowed users to view data from the company's in-vehicle device on a smartphone, even without an internet connection.
 
 **Challenges & Initiatives:**
 
-- Required functionality in environments without network connectivity
-  - Achieved offline launch via ServiceWorker (Workbox) local caching and Web App Manifest
-  - Implemented wireless communication with hardware (Read/Notification) using Web Bluetooth (BLE)
-- Reference material for the Web Bluetooth API was extremely scarce, and the specification was still under development
-  - Studied the BLE specification in depth, validated the unknown API from the ground up, and delivered a fully functional implementation
+- Developed a prototype using the Web Bluetooth API to retrieve data from the in-vehicle device on a smartphone without relying on a network
+  - Researched specifications and implemented BLE data communication at a time when examples and information were scarce
+  - Testing with physical devices showed that meeting the product's stability requirements would be difficult, providing evidence to inform technology selection
+- Based on the findings, the team reconsidered the approach and switched to an architecture in which smartphones directly accessed a web application served by the in-vehicle device
+  - Designed and implemented the frontend, delivering a web UI for viewing device information without relying on an internet connection
 
-**Tech Stack:** TypeScript, React, Redux, ServiceWorker, Storybook
+**Tech Stack:** TypeScript, React, Redux, Storybook, Web Bluetooth API
 
 ---
 
 ### ICS Inc. (Sep 2014 – Sep 2017)
 
 **Position:** Frontend Engineer / Technical Writer
+
+**Overview:**
+Responsible for frontend development of campaign websites and web applications with extensive interactive features, primarily for client projects. In addition to JavaScript / HTML / CSS, developed content with Adobe Flash / ActionScript 3.0. Alongside development, wrote articles for the company's technical publication "ICS MEDIA" and authored a book.
+
+#### Ongoing Development & Operations for the Social Game "パズ億"
+
+**Period:** Sep 2014 – Sep 2017
+**Role:** Development & Operations
+
+**Overview:**
+Responsible for ongoing development and operations of "パズ億," a puzzle game built with Adobe AIR. In addition to implementing and updating features, created puzzle stages, supporting continued operations through both technology and content development.
+
+**Tech Stack:** ActionScript 3.0, Adobe AIR
+
+---
 
 #### Technical Writing for ICS MEDIA
 
@@ -202,11 +239,7 @@ Developed a web application for checking the status of proprietary vehicle telem
 **Overview:**
 Authored articles on interactive web experiences using JavaScript and IoT for the company's tech publication "ICS MEDIA."
 
-**Results:**
-
-- Articles published in 2017 accumulated 150,000 annual page views
-
-**Tech Stack:** JavaScript, HTML5, CSS3, Arduino
+**Main Technical Areas:** JavaScript, HTML, CSS, Arduino
 
 ---
 
@@ -220,23 +253,25 @@ Authored an introductory book covering electronics fundamentals through IoT inte
 
 **Results:**
 
-- 3rd printing, 3,600 copies sold
+- 3rd printing, 3,600 copies in total
 - Translated and published in Taiwan and China
 
 <img src="./images/book-ja.jpg" alt="Japanese edition" width="400">
 
 <img src="./images/book-tw.jpg" alt="Taiwanese edition" width="400">
 
-**Tech Stack:** JavaScript, Arduino
+**Main Technical Areas:** JavaScript, Arduino
 
 ---
 
-### CASE Inc. / Bunnyhop Inc. (Sep 2012 – Aug 2014)
+### CASE Inc. / Bunnyhop Inc. (now BH Inc.) (Sep 2012 – Aug 2014)
 
 **Position:** Frontend Engineer
 
 **Overview:**
-Handled frontend development in JavaScript for B2B projects — including business applications and a surveillance camera system — alongside campaign website production. Transferred from CASE Inc. to Bunnyhop Inc. (now BH Inc.) in May 2014 following a corporate spin-off, continuing the same work with the same team.
+Shifted from developing interactive content primarily with Adobe Flash to web frontend development centered on JavaScript / HTML / CSS. Alongside campaign website production, handled frontend development for BtoB projects, including business applications and surveillance camera systems.
+
+Transferred from CASE Inc. to Bunnyhop Inc. in May 2014, continuing work with the same team.
 
 **Tech Stack:** JavaScript, HTML, CSS
 
@@ -244,12 +279,16 @@ Handled frontend development in JavaScript for B2B projects — including busine
 
 ### SONICJAM Inc. (Oct 2010 – Aug 2012)
 
-**Position:** Flash Developer
+**Position:** Adobe Flash Developer
 
 **Overview:**
-Produced interactive content with Flash and ActionScript 3.0, primarily for corporate campaign websites. Joined as an intern in October 2010 and became a full-time employee in April 2011.
+Produced interactive content with Adobe Flash / ActionScript 3.0, primarily for corporate campaign websites.
 
-**Tech Stack:** ActionScript 3.0, Flash
+Built animations and interactions from static visual designs, gaining experience in refining UI motion and usability through reviews from senior colleagues and supervisors.
+
+Joined as an intern in October 2010 and became a full-time employee in April 2011.
+
+**Tech Stack:** ActionScript 3.0, Adobe Flash
 
 ---
 
@@ -265,44 +304,35 @@ Produced interactive content with Flash and ActionScript 3.0, primarily for corp
 **Role:** Planning, Design & Implementation
 
 **Overview:**
-Personally developing a web app for managing BIG3 (bench press, squat, and deadlift) training logs and visualizing estimated 1RM progress. Responsible end to end for product planning, requirements definition, UX design, UI design, architecture, implementation, and testing.
+Independently developing a web app that combines training logs, progress visualization using estimated 1RM, and rest interval management to address the inconvenience of keeping training records on paper and using a separate timer app. Responsible end to end for product planning, requirements definition, UX design, UI design, architecture, and implementation. Currently under development in preparation for release.
 
 **Challenges & Initiatives:**
 
-- Needed to maintain consistent design principles and quality standards while using AI in the development process
-  - Used Claude Code for requirements exploration, design reviews, implementation, and code reviews
-  - Maintained a [specification](https://github.com/umi-kappa/peak-rm/blob/main/docs/spec.md), [coding conventions](https://github.com/umi-kappa/peak-rm/blob/main/docs/conventions.md), and [design documentation](https://github.com/umi-kappa/peak-rm/tree/main/docs/design) to manage design decisions and implementation practices
-- Needed to provide a UI that could be operated without distraction during training
-  - Used concepts created with Claude Design as a starting point, then refined the implementation for usability, legibility, and consistency
-- Needed to support continued use without relying on login or network connectivity
-  - Built a local-first PWA using IndexedDB (Dexie), enabling login-free, offline use
-- Needed to ensure quality continuously throughout development
-  - Used Storybook for component development and interaction tests, and Vitest for logic tests
-  - Established continuous quality checks with GitHub Actions, Chromatic, and pre-commit hooks
+- **Design & UI Consistency in AI-Assisted Development**
+  - Established a [specification](https://github.com/umi-kappa/peak-rm/blob/main/docs/spec.md), [coding conventions](https://github.com/umi-kappa/peak-rm/blob/main/docs/conventions.md), and [design documentation](https://github.com/umi-kappa/peak-rm/tree/main/docs/design) to maintain consistent design decisions, implementation practices, and UI when developing with AI
+  - Manage UI guidelines and decision criteria in design documentation instead of using design tools such as Figma
 
-**Tech Stack:** TypeScript, Vue.js, Vite, IndexedDB (Dexie), PWA, Vitest, Storybook, Chromatic, GitHub Actions
+- **UI/UX Design for Use During Training**
+  - Designed a UI that brings logging, progress checks, and rest interval timing into one app, prioritizing straightforward operation during the short breaks between sets
+  - Defined the necessary features and interaction flows from usage scenarios based on how I currently record workouts and manage rest intervals at the gym
+
+- **Local-First Architecture & Offline Support**
+  - Adopted an architecture that does not require a constant backend connection to limit development costs before release and support use in gyms with unreliable connectivity
+  - Implemented a local-first PWA using IndexedDB (Dexie), enabling offline use without login
+
+**Tech Stack:** TypeScript, Vue.js, Vite, IndexedDB (Dexie), PWA, Chart.js, Vitest, Storybook, Chromatic, GitHub Actions
 
 ---
 
-## Other Activities
+## Technical Writing
 
-### Writing
+### Articles
 
+- [Custom Claude Code Skills I Use for Web Frontend Development](https://zenn.dev/umi_kappa/articles/fd63a0792d8fe3) (Zenn, 2026)
 - [Tips for "Invisible Animations" That Elevate User Experience](https://note.com/globee/n/n55c77911a184) (Globee note, 2021)
-- [Taking Parental Leave at a 5-Engineer Startup — A Story of Gratitude](https://note.com/globee/n/nac4b1cac6792) (Globee note, 2022)
-- [Reading and Writing NFC Tags with JavaScript Using Web NFC](https://tech.aptpod.co.jp/entry/2020/06/12/090000) (aptpod Tech Blog)
 - [Practical Tips for 360° Video Player Development](https://tech.aptpod.co.jp/entry/2020/03/27/120000) (aptpod Tech Blog)
 - [A Frontend Engineer's Design Review Checklist](https://tech.aptpod.co.jp/entry/2020/07/31/100000) (aptpod Tech Blog)
-- [How Engineers Can Write User Manuals](https://tech.aptpod.co.jp/entry/2019/12/19/070000) (aptpod Tech Blog)
-
-### Speaking
-
-- Jan 2023: [Parenting Engineers LT Meetup](https://globee.connpass.com/event/269039/) — "Taking the First Parental Leave at a 5-Engineer Startup"
-
-### Media Coverage
-
-- [Rapid Growth Through AI English Learning, Company Culture Drawing Attention for Full Parental Leave Support](https://morejob.co.jp/mirai/globee/) (MoreJob interview, 2023)
 
 ---
 
-*Last updated: August 3, 2026*
+*Last updated: September 15, 2026*
