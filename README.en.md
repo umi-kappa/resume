@@ -279,7 +279,7 @@ Transferred from CASE Inc. to Bunnyhop Inc. in May 2014, continuing work with th
 
 ### SONICJAM Inc. (Oct 2010 – Aug 2012)
 
-**Position:** Adobe Flash Developer
+**Position:** Flash Developer
 
 **Overview:**
 Produced interactive content with Adobe Flash / ActionScript 3.0, primarily for corporate campaign websites.

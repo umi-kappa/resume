@@ -279,7 +279,7 @@ Adobe Flash中心のインタラクティブコンテンツ開発から、JavaSc
 
 ### 株式会社ソニックジャム（2010年10月 〜 2012年8月）
 
-**ポジション：** Adobe Flashデベロッパー
+**ポジション：** Flashデベロッパー
 
 **概要：**
 企業のキャンペーンサイトを中心に、Adobe Flash / ActionScript 3.0を用いたインタラクティブコンテンツの制作を担当。
@@ -320,7 +320,7 @@ Adobe Flash中心のインタラクティブコンテンツ開発から、JavaSc
   - リリースまでの開発コストを抑えつつ、通信環境が安定しないジムでも利用できるよう、バックエンドへの常時接続を前提としない構成を採用
   - IndexedDB（Dexie）によるローカルファースト設計とPWA化により、ログイン不要・オフラインで利用できるアプリケーションを実装
 
-**技術スタック：** TypeScript, Vue.js, Vite, IndexedDB (Dexie), PWA, Chart.js, Vitest, Storybook, Chromatic, GitHub Actions
+**技術スタック：** TypeScript, Vue.js, Vite, IndexedDB（Dexie）, PWA, Chart.js, Vitest, Storybook, Chromatic, GitHub Actions
 
 ---
 
