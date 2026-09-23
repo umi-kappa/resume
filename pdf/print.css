@@ -1,0 +1,42 @@
+@page { size: A4; margin: 17mm 18mm 18mm; }
+* { box-sizing: border-box; }
+html {
+  /* 8 CSS px = 6pt. Role assignments for this PDF are documented in docs/pdf.md. */
+  --space-related: 6pt;
+  --space-content: 12pt;
+  --space-project: 18pt;
+  --space-section: 24pt;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #222;
+  font-size: 10pt;
+}
+body { margin: 0; line-height: 1.75; }
+h1, h2, h3, h4, h5, h6 { line-height: 1.5; break-after: avoid; }
+h1 { font-size: 24pt; margin: 0 0 var(--space-project); letter-spacing: .08em; }
+h2 { font-size: 16pt; margin: var(--space-section) 0 var(--space-content); color: #244d72; border-bottom: .4mm solid #244d72; padding-bottom: var(--space-related); }
+h3 { font-size: 12pt; margin: var(--space-section) 0 var(--space-content); }
+h4 { font-size: 11pt; margin: var(--space-project) 0 var(--space-content); }
+h5, h6 { font-size: 10pt; margin: var(--space-content) 0 var(--space-related); }
+p { margin: 0 0 var(--space-content); orphans: 3; widows: 3; }
+strong { font-weight: 700; }
+a { color: #244d72; text-decoration: underline; text-underline-offset: .15em; overflow-wrap: anywhere; }
+ul, ol { margin: var(--space-related) 0 var(--space-content); padding-left: var(--space-project); }
+li { margin: 0 0 var(--space-related); orphans: 3; widows: 3; break-inside: avoid; }
+li:has(> ul), li:has(> ol) { break-inside: auto; }
+li > ul, li > ol { break-before: avoid; }
+li > p { margin-bottom: var(--space-related); }
+li ul, li ol { margin: var(--space-related) 0; }
+table { border-collapse: collapse; width: 100%; margin: var(--space-related) 0 var(--space-content); font-size: 9.5pt; }
+th, td { text-align: left; padding: var(--space-related) var(--space-content); border-bottom: .2mm solid #ccc; }
+th { background: #f1f3f5; font-weight: 700; }
+thead { display: table-header-group; }
+tr { break-inside: avoid; }
+header { break-inside: avoid; }
+dl { margin: 0; }
+dl > div { display: flex; gap: var(--space-content); }
+dt { width: 18mm; flex-shrink: 0; color: #555; }
+dd { margin: 0; }
+dl > div:first-child dd { font-weight: 700; font-size: 12pt; }
+.lead-in { margin-bottom: var(--space-related); break-after: avoid; }
+.trailing-info { break-before: avoid; }
+pre { white-space: pre-wrap; overflow-wrap: anywhere; }
