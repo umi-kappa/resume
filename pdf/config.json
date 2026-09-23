@@ -1,0 +1,10 @@
+{
+  "sections": [
+    "自己PR・志向性",
+    "技術スタック",
+    "職歴・プロジェクト経験",
+    "技術研鑽・個人開発"
+  ],
+  "basicInfoSection": "基本情報",
+  "fields": ["名前", "GitHub", "Zenn", "Qiita"]
+}
