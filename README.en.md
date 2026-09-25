@@ -17,29 +17,54 @@
 
 ## Summary & Strengths
 
-I have 15 years of development experience, primarily in web frontend development, with strengths in taking work from requirements and UX discussions through UI design and implementation. I pursue usability with the goal of creating products that people can use without instructions.
+I have 15 years of development experience, primarily in web frontend development. My strengths lie in working across requirements and UX discussions, UI design, and implementation. Whether users can use a product without instructions is one of the criteria that guide my approach to usability.
 
 From selecting video player libraries to developing a custom joystick UI from scratch, I have chosen technologies based on both user experience and feasibility, and turned those choices into working products.
 
 Currently, as the Web Team Lead for "abceed," an AI-powered English learning service, I remain hands-on in development while also handling hiring, technology selection, requirements coordination, and project delivery.
 
-Alongside using AI for development and reviews, I automate routine tasks and build reusable workflows for the team to improve productivity across the development process.
+I use AI in development and reviews to improve productivity across the development process. I also work on automating routine tasks and building reusable workflows for the team.
 
 ---
 
-## Career Goals & Priorities
+## What I Value in Development
+
+### Pursuing UIs That Need No Instructions
+
+Since my days working with Flash, I have cared about creating UIs that people can use without having to think about the controls themselves. Even with a single button, I want to create something pleasant that people naturally want to interact with, rather than using flashy animations to draw attention and get them to click. I believe these small moments of ease add up to a UI that needs no instructions.
+
+Rather than simply implementing the specifications and designs in front of me, I continually ask whether users might get lost or find something difficult to use. When I notice a problem, I bring a proposed improvement to the product manager and designer, and work with them to keep making the UI easier to use without instructions.
+
+### Prototype First, Then Make Technical Decisions
+
+When adopting new technology or tackling a problem whose feasibility is difficult to judge, I value building and testing prototypes alongside reviewing documentation and examples. I use the findings to select technologies, share what I learned and how I reached my decisions with the team, and publish those insights in technical articles.
+
+### Helping the Team Make Progress Independently
+
+I have worked across the development process, from clarifying requirements and creating and assigning tasks to reviews and verification before QA. As the volume of development has grown, I have delegated responsibilities to team members and supported them with questions about specifications and obstacles to project progress. Alongside my own development work, I value creating the conditions for team members to make decisions and move work forward themselves.
+
+---
+
+## Career Goals
 
 - **Elevate product value through frontend technology:**
   I want to contribute from the requirements and UX planning stages through UI implementation, using my technical knowledge to create products that people can use without instructions
 
 - **Evolve development processes with AI:**
-  I want to incorporate AI throughout requirements discussions, design, implementation, and reviews, beyond coding assistance alone, so engineers have more time to focus on products and users
+  I want to incorporate AI throughout requirements discussions, design, implementation, and reviews, beyond coding assistance alone, so engineers have more time to focus on products and users. I also want to build ways for the team, as well as individuals, to use AI effectively
 
 - **Lead development through both technical decisions and project coordination:**
-  I want to move product development forward by staying hands-on with implementation and technical decisions while also clarifying requirements, coordinating specifications, breaking down tasks, and working with stakeholders
+  I want to move the team's development forward by staying hands-on with implementation and technical decisions while also clarifying requirements, coordinating specifications, breaking down tasks, working with stakeholders, and supporting team members
+
+---
+
+## What I Look for in a Workplace
+
+- **Ownership of product and technology decisions:**
+  An environment where I can contribute before implementation, including specification and UX discussions and technology selection, and apply my frontend expertise to product development
 
 - **Balance work and family:**
-  I value flexible working arrangements that allow me to stay committed to my work and deliver results consistently while also spending time with my children
+  Flexible working arrangements that allow me to stay committed to my work and deliver results consistently while also valuing time with my children
 
 ---
 
@@ -100,20 +125,32 @@ Experience as of September 2026
 **Overview:**
 Lead web frontend development for the AI-powered English learning service "abceed." Responsibilities include designing and implementing user-facing features and admin interfaces, clarifying requirements and improving UI/UX in collaboration with product managers and designers, and selecting technologies.
 
+In addition to individual English study, the web version is used for corporate training and TOEIC and Eiken preparation in schools. It supports learning on school Chromebooks and larger PC screens, access from social media and other services, and web-only features.
+
 **Challenges & Initiatives:**
 
 ##### Requirements & UI Design for the Web
 
-- Identified web-specific use cases in specifications and designs developed primarily for iOS / Android apps, including state management on reload, navigation guards, and multi-window use, and worked with product managers to define the requirements
-- Collaborated with designers to adapt app-oriented designs for usability on the web, including desktop environments
-- Proactively reviewed designs and implemented behavior, including projects outside my direct responsibilities, and provided feedback on responsive layouts, layouts in exceptional states, and use cases not explicitly covered by specifications
+- Many shared features were considered first for the more widely used iOS / Android apps, with the web version designed afterward. The web team had the same headcount as each app team while also developing admin interfaces, leaving limited staffing for its scope. Web-only features were planned and designed for the web from the outset
+- Reviewed designs before implementation to avoid rework. Identified web-specific use cases, including state management on reload, navigation guards, and multi-window use, and worked with product managers and designers to define specifications and UI behavior
+- For the free-talk feature in AI English conversation, the proposed design showed scenario details on a separate screen. Recognizing that users would need to return to the list each time they wanted to choose a different scenario, proposed showing the details in a modal on the list screen
+- Shared with the designer that a PC screen provided enough space to show the details in a modal, while a separate screen required consideration of display behavior and data retrieval on reload. The proposal was adopted. Users could review details and change their selection without leaving the list, reducing screen transitions. Reusing data already fetched for the list also eliminated the additional API request planned for the detail view
+- Proactively reviewed designs and post-implementation behavior, including projects outside my direct responsibilities, and provided feedback on responsive layouts, layouts in exceptional states, and use cases not explicitly covered by specifications
 
-##### Video Player Development for Movie- and Drama-Based English Learning
+##### Video Player Development for Movie- and Drama-Based English Learning (Released in Spring 2023)
 
-- Needed a video player that supported both DRM and fast phrase-level seeking
-- Built a prototype with hls.js to validate UI/UX, then adopted Video.js for DRM support
-- Investigated playback freezes during fast seeking and ultimately migrated to Shaka Player, achieving both DRM support and seamless phrase playback
+- Needed to meet film companies' licensing requirements for DRM copyright protection while allowing learners to move to lines of dialogue and listen to them again smoothly
+- Built a prototype with hls.js to reuse existing HLS assets and validate UI/UX suited to learning early in development. Also used it to demonstrate the learning experience to representatives from film companies
+- Adopted Video.js for DRM support in the production implementation, but playback stopped when starting partway through a video and rapidly stepping backward through phrases beyond that starting point. Investigation did not resolve the issue, so prioritized the learning experience of smoothly replaying dialogue and reconsidered the library choice
+- Investigated open-source and commercial DRM-capable libraries and tested Shaka Player, which offered extensive DRM examples. Confirmed that playback resumed promptly even with the operations that caused problems in Video.js, then adopted it to resolve the playback freezes. Achieved both copyright protection and seamless phrase playback
 - For details, see [Evolution of Video Libraries Used in abceed Web's Movie/Drama Feature Development](https://qiita.com/umi_kappa/items/f91eb2ed1ea3e0594992)
+
+##### Improving Social Sharing
+
+- The learning-progress sharing feature required users to manually attach a browser-generated image to a social media post. Had recognized this extra step as a usability issue since implementing the feature
+- When the feature was revisited, proposed to the CTO, who also served as product manager, generating a shared page with OGP metadata reflecting the learning results and passing its URL to the social platform. Also proposed adding a link to abceed on the shared page so people viewing the post could visit the service
+- Investigated OGP behavior in advance and implemented the shared page's HTML template and the client-side sharing interaction. The server team considered the server-side implementation, and we coordinated on details such as the data format passed to the template
+- Released the feature so the share button in abceed opens a social media post composer with the shared URL already filled in. Removed the need to attach an image manually, reducing the effort required to share learning results
 
 **Tech Stack:** TypeScript, Vue.js, Vuex, Pinia, Vite, webpack, Vitest, Storybook, Chromatic, GitHub Actions, Shaka Player
 
@@ -127,30 +164,40 @@ Lead web frontend development for the AI-powered English learning service "abcee
 **Overview:**
 Responsible for project delivery, hiring, and establishing development and review environments since the web frontend team's early stages. Lead development across the team while remaining hands-on.
 
+Including myself, the web team grew from 2 members when I joined to a maximum of 4, and currently has 3. An additional contractor participated during the period when the team had 2 members. Projects involve collaboration with colleagues across iOS / Android / server engineering, design, product management, and QA.
+
 **Challenges & Initiatives:**
 
 ##### Project Delivery & Delegation
 
 - In the team's early stages, handled a broad range of project activities: clarifying requirements and specifications, researching technologies, considering UI/UX, designing URL structures, creating issues, assigning tasks, reviewing PRs, and verifying implementations before QA
-- As development volume increased, gradually delegated project coordination to team members, including requirements clarification and reviews
-- Currently monitor project progress and team members' challenges, providing support and coordination on requirements and technical matters as needed
+- As AI adoption increased, the company sought to pursue more projects and the volume of reviews grew. Although plans also included my own implementation work, specification coordination and reviews consumed more of my time, increasingly delaying my assigned projects
+- Since 2026, have gradually delegated project coordination to team members, including defining specifications, coordinating designs, and conducting reviews
+- Currently monitor each project's progress and challenges, answer questions about existing specifications, and provide design guidance. Also coordinate with stakeholders on behalf of team members when needed. While continuing this support, have begun to regain time for my own development work
+
+##### Introducing a Checklist to Prevent Gaps in Web Specifications and Designs
+
+- On many projects, iOS engineers, designers, and product managers discussed specifications and designs before web team members joined. Web requirements and designs were often still unresolved when the web team joined, preventing implementation from starting immediately
+- Discussed these difficulties with the CTO and proposed a checklist so web-specific considerations could be reviewed in advance, even when web team members were not involved from the beginning
+- Documented considerations in Notion, including behavior on reload and direct URL access, hover designs, and responses to changes in screen width. Proposed having AI reference this material during specification and design discussions, and obtained the CTO's agreement
+- Product managers and engineers involved early in projects began using the checklist for AI-assisted checks. Reload behavior was discussed in advance, and hover designs were increasingly prepared before web team members joined
 
 ##### Development Process Improvement with AI
 
-- Introduced Claude Code into day-to-day development and use it throughout the process, from preparing design and implementation plans based on requirements to implementation, testing, and code reviews
+- Introduced Claude Code into day-to-day development in 2026 and use it throughout the process, from preparing design and implementation plans based on requirements to implementation, testing, and code reviews
 - Automated recurring tasks, such as generating API-related files in batches and reviewing PRs, as reusable Claude Code Skills
-- Share Skills in the repository and continually refine them as a common team workflow, discussing and improving ideas together with team members
+- Since 2026, have shared Skills in the repository and continually refined them as a common team workflow, discussing and improving ideas together with team members
 
 ##### Component Development & Review Process Improvement
 
 - Checking a specific component in a complex application required navigating through screens and recreating application state
-- Proposed introducing Storybook and established an environment for checking component UIs and behavior individually without operating the entire application
-- Based on a team member's proposal, worked with the team to establish a Chromatic workflow that detects unintended UI changes through Visual Regression Testing and supports PR reviews using an online Storybook
+- Proposed and introduced Storybook when I joined in March 2021, establishing an environment for checking component UIs and behavior individually without operating the entire application
+- Introduced Chromatic in 2025 based on a team member's proposal and established its workflow together with the team. Enabled detection of unintended UI changes through Visual Regression Testing and PR reviews using an online Storybook
 
 ##### Frontend Engineer Hiring
 
 - Responsible for improving and administering coding assessments and conducting technical interviews for senior frontend engineer hiring
-- Updated assessments in response to the wider adoption of AI implementation assistance to evaluate candidates' ability to clarify ambiguous requirements and turn them into specifications, alongside implementation skills
+- Since 2026, have updated assessments in response to the wider adoption of AI implementation assistance to evaluate candidates' ability to clarify ambiguous requirements and turn them into specifications, alongside implementation skills
 
 ---
 
@@ -179,7 +226,7 @@ Responsible for web frontend development for the company's IoT and automotive pr
 **Role:** Frontend Development
 
 **Overview:**
-Developed a system for controlling a portable RC car through a web application as a technical demonstration of smartphone-based remote control for a client's heavy machinery. For demonstrations at client sites, the UI needed to be intuitive and smooth to operate without instructions.
+Developed a technical demonstration system to show that a client's heavy machinery could be controlled remotely from a smartphone. The system used a web application to control a portable RC car. For demonstrations at client sites, the UI needed to be intuitive and smooth to operate without instructions.
 
 **Challenges & Initiatives:**
 
@@ -284,7 +331,7 @@ Transferred from CASE Inc. to Bunnyhop Inc. in May 2014, continuing work with th
 **Overview:**
 Produced interactive content with Adobe Flash / ActionScript 3.0, primarily for corporate campaign websites.
 
-Built animations and interactions from static visual designs, gaining experience in refining UI motion and usability through reviews from senior colleagues and supervisors.
+Built animations and interactions from static visual designs. Gained experience refining UI motion and usability through reviews from senior colleagues and supervisors.
 
 Joined as an intern in October 2010 and became a full-time employee in April 2011.
 
@@ -304,17 +351,17 @@ Joined as an intern in October 2010 and became a full-time employee in April 201
 **Role:** Planning, Design & Implementation
 
 **Overview:**
-Independently developing a web app that combines training logs, progress visualization using estimated 1RM, and rest interval management to address the inconvenience of keeping training records on paper and using a separate timer app. Responsible end to end for product planning, requirements definition, UX design, UI design, architecture, and implementation. Currently under development in preparation for release.
+Independently developing a web app that combines training logs, progress visualization using estimated 1RM, and rest interval management. The aim is to address the inconvenience of keeping my training records on paper and using a separate app to time rest intervals. Responsible end to end for product planning, requirements definition, UX design, UI design, architecture, and implementation. Currently under development in preparation for release.
 
 **Challenges & Initiatives:**
 
 - **Design & UI Consistency in AI-Assisted Development**
-  - Established a [specification](https://github.com/umi-kappa/peak-rm/blob/main/docs/spec.md), [coding conventions](https://github.com/umi-kappa/peak-rm/blob/main/docs/conventions.md), and [design documentation](https://github.com/umi-kappa/peak-rm/tree/main/docs/design) to maintain consistent design decisions, implementation practices, and UI when developing with AI
+  - Established a [specification](https://github.com/umi-kappa/peak-rm/blob/main/docs/spec.md), [coding conventions](https://github.com/umi-kappa/peak-rm/blob/main/docs/conventions.md), and [design documentation](https://github.com/umi-kappa/peak-rm/tree/main/docs/design) to support AI-assisted development. Built a development environment that maintains consistency in design decisions, implementation practices, and UI
   - Manage UI guidelines and decision criteria in design documentation instead of using design tools such as Figma
 
 - **UI/UX Design for Use During Training**
   - Designed a UI that brings logging, progress checks, and rest interval timing into one app, prioritizing straightforward operation during the short breaks between sets
-  - Defined the necessary features and interaction flows from usage scenarios based on how I currently record workouts and manage rest intervals at the gym
+  - Designed the necessary features and interaction flows based on situations in which I record workouts and manage rest intervals at the gym
 
 - **Local-First Architecture & Offline Support**
   - Adopted an architecture that does not require a constant backend connection to limit development costs before release and support use in gyms with unreliable connectivity
@@ -335,4 +382,4 @@ Independently developing a web app that combines training logs, progress visuali
 
 ---
 
-*Last updated: September 15, 2026*
+*Last updated: September 26, 2026*
