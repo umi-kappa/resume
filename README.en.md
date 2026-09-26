@@ -43,7 +43,7 @@ I share what I have learned and how I reached my decisions within the team and t
 
 ### Creating an Environment That Makes Development Easier for the Team
 
-I have worked across the development process, from clarifying requirements and creating and assigning tasks to reviews and verification before QA. As AI adoption increases the volume of development, I have been handing over responsibilities to team members, discussing specifications with them, and helping resolve obstacles to progress. Alongside my own development work, I value creating the conditions for team members to make decisions and move work forward themselves.
+I have worked across the development process, from clarifying requirements and creating and assigning tasks to reviews and verification before QA. As AI adoption increases the volume of development, I have been handing over responsibilities to team members, discussing specifications with them, and helping resolve obstacles to progress. Alongside my own development work, I value helping team members make their own decisions and move development forward.
 
 ---
 
@@ -138,7 +138,8 @@ The web version I work on is used for individual English study, corporate traini
 
 ##### Requirements & UI Design for the Web
 
-- For many shared features, specifications and designs were considered first for the more widely used iOS / Android apps, with the web version designed afterward. Web-only features were considered for the web from the outset. The web team had the same headcount as each app team while also developing admin interfaces, leaving limited staffing for its scope
+For many shared features, specifications and designs were considered first for the more widely used iOS / Android apps, with the web version designed afterward. Web-only features were considered for the web from the outset. The web team had the same headcount as each app team while also developing admin interfaces, leaving limited staffing for its scope.
+
 - Reviewed designs before implementation to avoid rework. Identified web-specific use cases, including state management on reload, navigation guards, and handling the browser losing focus, and worked with product managers and designers to define specifications and UI behavior
 - Proactively reviewed designs and post-implementation behavior in projects outside my direct responsibilities, and provided feedback on responsive layouts, layouts in exceptional states, and use cases not explicitly covered by specifications
 
