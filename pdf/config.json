@@ -3,8 +3,15 @@
     "自己PR・志向性",
     "技術スタック",
     "職歴・プロジェクト経験",
-    "技術研鑽・個人開発"
+    "技術研鑽・個人開発",
+    "技術発信",
+    "開発で大切にしていること",
+    "この先やりたいこと",
+    "働く環境に求めること"
   ],
   "basicInfoSection": "基本情報",
-  "fields": ["名前", "GitHub", "Zenn", "Qiita"]
+  "excludedBasicInfoFields": [
+    "LinkedIn",
+    "X (Twitter)"
+  ]
 }

@@ -30,7 +30,8 @@ export async function generatePdf(source, outputDirectory) {
   const config = JSON.parse(await read('pdf/config.json'));
   const { title, body } = renderResume(source, config);
   const css = await read('pdf/print.css');
-  const html = `<!doctype html><html lang="ja"><head><meta charset="utf-8"><title>${title}</title><style>${await fontCss()}\n${css}</style></head><body>${body}</body></html>`;
+  const safeTitle = title.replace(/[&<>"']/g, char => `&#${char.charCodeAt(0)};`);
+  const html = `<!doctype html><html lang="ja"><head><meta charset="utf-8"><title>${safeTitle}</title><style>${await fontCss()}\n${css}</style></head><body>${body}</body></html>`;
   await mkdir(outputDirectory, { recursive: true });
   const browser = await puppeteer.launch({ headless: true });
   try {
@@ -41,6 +42,9 @@ export async function generatePdf(source, outputDirectory) {
     await page.setContent(html, { waitUntil: 'load' });
     await page.emulateMediaType('print');
     await page.evaluate(() => document.fonts.ready);
+    if (!await page.evaluate(() => [...document.images].every(img => img.complete && img.naturalWidth > 0 && img.naturalHeight > 0))) {
+      throw new Error('Embedded image failed to decode');
+    }
     if (!await page.evaluate(() => document.fonts.check('10pt "Noto Sans JP"', '職務経歴書'))) {
       throw new Error('Japanese font failed to load');
     }

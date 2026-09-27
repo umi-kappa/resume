@@ -10,7 +10,7 @@ html {
   color: #222;
   font-size: 10pt;
 }
-body { margin: 0; line-height: 1.75; }
+body { margin: 0; line-height: 1.75; line-break: strict; word-break: normal; }
 h1, h2, h3, h4, h5, h6 { line-height: 1.5; break-after: avoid; }
 h1 { font-size: 24pt; margin: 0 0 var(--space-project); letter-spacing: .08em; }
 h2 { font-size: 16pt; margin: var(--space-section) 0 var(--space-content); color: #244d72; border-bottom: .4mm solid #244d72; padding-bottom: var(--space-related); }
@@ -21,12 +21,15 @@ p { margin: 0 0 var(--space-content); orphans: 3; widows: 3; }
 strong { font-weight: 700; }
 a { color: #244d72; text-decoration: underline; text-underline-offset: .15em; overflow-wrap: anywhere; }
 ul, ol { margin: var(--space-related) 0 var(--space-content); padding-left: var(--space-project); }
-li { margin: 0 0 var(--space-related); orphans: 3; widows: 3; break-inside: avoid; }
+li { margin: 0 0 var(--space-related); orphans: 3; widows: 3; }
 li:has(> ul), li:has(> ol) { break-inside: auto; }
 li > ul, li > ol { break-before: avoid; }
 li > p { margin-bottom: var(--space-related); }
 li ul, li ol { margin: var(--space-related) 0; }
 table { border-collapse: collapse; width: 100%; margin: var(--space-related) 0 var(--space-content); font-size: 9.5pt; }
+/* Share column boundaries across two-column tables, regardless of cell content. */
+table:has(> thead > tr > th:first-child:nth-last-child(2)) { table-layout: fixed; overflow-wrap: anywhere; }
+table:has(> thead > tr > th:first-child:nth-last-child(2)) > thead > tr > th:first-child { width: 30%; }
 th, td { text-align: left; padding: var(--space-related) var(--space-content); border-bottom: .2mm solid #ccc; }
 th { background: #f1f3f5; font-weight: 700; }
 thead { display: table-header-group; }
@@ -40,3 +43,11 @@ dl > div:first-child dd { font-weight: 700; font-size: 12pt; }
 .lead-in { margin-bottom: var(--space-related); break-after: avoid; }
 .trailing-info { break-before: avoid; }
 pre { white-space: pre-wrap; overflow-wrap: anywhere; }
+.project-metadata { break-inside: avoid; break-after: avoid; }
+.project-metadata li { margin-bottom: 0; }
+.label-content { display: flow-root; break-inside: avoid; }
+.before-images { break-after: avoid; }
+.image-row { display: flex; align-items: flex-start; gap: var(--space-content); break-inside: avoid; margin: var(--space-related) 0 var(--space-content); }
+.image-row p { margin: 0; }
+img { display: block; width: auto; height: auto; max-width: 60mm; max-height: 38mm; object-fit: contain; }
+.last-updated { margin-top: var(--space-section); color: #555; font-size: 9pt; }
