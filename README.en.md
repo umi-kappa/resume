@@ -49,15 +49,15 @@ I have worked across the development process, from clarifying requirements and c
 
 ## What I Want to Work on Next
 
-### Building Products That Deliver Value to Users
+### Building What Users Truly Need and Continually Improving It
 
 I want to be involved from the stage of deciding what to build and why. By imagining how people will actually use a product, I want to make it easy and pleasant to use. After release, I want to keep improving it based on usage and feedback.
 
-### Evolve Development Processes with AI
+### Using AI to Make More Time to Focus on the Product
 
 I want to use AI throughout requirements discussions, design, implementation, and reviews so engineers have more time to focus on products and users. Alongside individual use, I want to build ways for the team to use AI effectively.
 
-### Contributing Beyond My Core Area of Expertise
+### Building on My Expertise and Expanding into Areas the Product Needs
 
 With frontend development as my core area of expertise, I want to actively contribute to other areas needed to build the product, including backend development and management. While staying hands-on in development, I also want to help solve technical challenges and create an environment that makes development easier for the team.
 
