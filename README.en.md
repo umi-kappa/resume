@@ -17,7 +17,7 @@
 
 ## Summary & Strengths
 
-I have 15 years of development experience, primarily in web frontend development. My strengths lie in working across requirements and UX discussions, UI design, and implementation. Whether users can use a product without instructions is one of the criteria that guide my approach to usability.
+I have 16 years of development experience, primarily in web frontend development. My strengths lie in working across requirements and UX discussions, UI design, and implementation. Whether users can use a product without instructions is one of the criteria that guide my approach to usability.
 
 From selecting video player libraries to developing a custom joystick UI from scratch, I have chosen technologies based on both user experience and technical feasibility, and turned those choices into working products.
 
@@ -77,7 +77,7 @@ I want to stay committed to my work while also valuing time with my children. I 
 
 ## Tech Stack
 
-Experience as of September 2026
+Experience as of October 2026
 
 ### Languages
 
@@ -183,16 +183,16 @@ The web team had 2 members, including myself, when I joined. It later grew to a 
 - Documented considerations in Notion, including behavior on reload and direct URL access, hover designs, and responses to changes in screen width. Proposed having AI reference this material to check for omissions during specification and design discussions, and obtained the CTO's agreement
 - Product managers and engineers involved early in projects began using the checklist for AI-assisted checks. Reload behavior was discussed in advance, and hover designs were increasingly prepared before web team members joined
 
-##### Development Process Improvement with AI
+##### Development Process Improvement with AI (2026–Present)
 
-- Introduced Claude Code into day-to-day development in 2026 and use it throughout the process, from preparing design and implementation plans based on requirements to implementation, testing, and code reviews
+- Introduced Claude Code into day-to-day development and use it throughout the process, from preparing design and implementation plans based on requirements to implementation, testing, and code reviews
 - Documented procedures for recurring development tasks, such as generating API-related files in batches and reviewing PRs, as Claude Code Skills to support reuse and automation
-- Since 2026, have shared Skills in the repository and continually refined them as a common team workflow, discussing and improving ideas together with team members
+- Share Skills in the repository for use as a common team workflow. Team members contribute ideas and continually discuss and refine them
 
 ##### Frontend Engineer Hiring
 
 - Responsible for improving and administering coding assessments and conducting technical interviews for senior frontend engineer hiring
-- Since 2026, have updated assessments in response to the wider adoption of AI implementation assistance to evaluate candidates' ability to clarify ambiguous requirements and turn them into specifications, alongside implementation skills
+- Updated assessments in 2026 in response to the wider adoption of AI implementation assistance. The revised assessments evaluate candidates' ability to clarify ambiguous requirements and turn them into specifications, alongside implementation skills
 
 ##### Component Development & Review Process Improvement
 
@@ -369,8 +369,7 @@ Independently developing a web app that combines training logs, progress visuali
 
 ##### Design & UI Consistency in AI-Assisted Development
 
-- Established a [specification](https://github.com/umi-kappa/peak-rm/blob/main/docs/spec.md), [coding conventions](https://github.com/umi-kappa/peak-rm/blob/main/docs/conventions.md), and [design documentation](https://github.com/umi-kappa/peak-rm/tree/main/docs/design) to support AI-assisted development. Built a development environment that maintains consistency in design decisions, implementation practices, and UI
-- Manage UI guidelines and decision criteria in design documentation instead of using design tools such as Figma
+- Established a [specification](https://github.com/umi-kappa/peak-rm/blob/main/docs/spec.md), [coding conventions](https://github.com/umi-kappa/peak-rm/blob/main/docs/conventions.md), and [design documentation](https://github.com/umi-kappa/peak-rm/tree/main/docs/design). Manage UI guidelines and decision criteria in documentation instead of design tools such as Figma, creating a development environment that maintains consistency in design decisions, implementation practices, and UI during AI-assisted development
 
 ##### UI/UX Design for Use During Training
 
@@ -397,4 +396,4 @@ Independently developing a web app that combines training logs, progress visuali
 
 ---
 
-*Last updated: September 26, 2026*
+*Last updated: October 30, 2026*
