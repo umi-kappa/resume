@@ -47,31 +47,25 @@ I have worked across the development process, from clarifying requirements and c
 
 ---
 
-## Career Goals
+## What I Want to Work on Next
 
-### Elevate Product Value Through Frontend Technology
+### Building Products That Deliver Value to Users
 
-I want to contribute from the requirements and UX planning stages through UI implementation, using my technical knowledge to create products that people can use without instructions.
+I want to be involved from the stage of deciding what to build and why. By imagining how people will actually use a product, I want to make it easy and pleasant to use. After release, I want to keep improving it based on usage and feedback.
 
 ### Evolve Development Processes with AI
 
 I want to use AI throughout requirements discussions, design, implementation, and reviews so engineers have more time to focus on products and users. Alongside individual use, I want to build ways for the team to use AI effectively.
 
-### Lead Development Through Both Technical Decisions and Project Coordination
+### Contributing Beyond My Core Area of Expertise
 
-I want to move the team's development forward while staying hands-on with implementation and technical decisions. I also want to contribute to clarifying requirements, coordinating specifications, breaking down tasks, working with stakeholders, and supporting team members.
+With frontend development as my core area of expertise, I want to actively contribute to other areas needed to build the product, including backend development and management. While staying hands-on in development, I also want to help solve technical challenges and create an environment that makes development easier for the team.
 
 ---
 
-## What I Look for in a Workplace
+## Preferred Working Arrangements
 
-### Take Ownership of Product and Technology Decisions
-
-I am looking for an environment where I can contribute before implementation, including specification and UX discussions and technology selection, and apply my frontend expertise to product development.
-
-### Balance Work and Family
-
-I want to stay committed to my work while also valuing time with my children. I am looking for flexible working arrangements that allow me to deliver results consistently.
+I want to stay committed to my work while also valuing time with my family. I am looking for flexible working arrangements that allow me to balance work and family and continue delivering results over the long term.
 
 ---
 

@@ -14,7 +14,7 @@ test('real manuscript: configured order, header fields, exclusions and clickable
   const $ = load(body);
   assert.deepEqual($('h2').map((_, el) => $(el).text()).get(), [
     '自己PR・志向性', '技術スタック', '職歴・プロジェクト経験', '技術研鑽・個人開発',
-    '技術発信', '開発で大切にしていること', 'この先やりたいこと', '働く環境に求めること',
+    '技術発信', '開発で大切にしていること', '今後取り組みたいこと', '希望する働き方',
   ]);
   assert.deepEqual($('dt').map((_, el) => $(el).text()).get(), ['名前', 'GitHub', 'Zenn', 'Qiita']);
   assert.equal($('img').length, 2);
